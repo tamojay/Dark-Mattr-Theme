@@ -1,0 +1,142 @@
+:root {
+   --ff-style-one: 'Raleway', sans-serif;
+   --ff-style-two: 'STIX Two Math', serif;
+
+   --clr-bg: #172b38;
+   --clr-accent: #f0d4c0;
+   --clr-accent-two: #3fbabe;
+   --clr-extra: #fb906c;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: var(--clr-bg);
+}
+
+body {
+   font-family: var(--ff-style-one);
+   color: var(--clr-extra);
+   line-height: 1.2;
+}
+
+.wrapper-header {
+   margin-top: 5rem;
+   margin-bottom: 3rem;
+}
+
+.container {
+   width: 85%;
+   margin: 0 auto;
+   padding: 2rem 4rem;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+.container .title h1 {
+   font-family: var(--ff-style-two);
+   font-size: 4rem;
+   font-weight: 500;
+   line-height: 1;
+   color: var(--clr-accent);
+}
+
+.wrapper-section {
+   margin-bottom: 3rem;
+}
+
+.wrapper-section .container img {
+   display: inline-block;
+   width: 100%;
+   box-shadow: 0 0 2rem #1b1a1a;
+}
+
+.wrapper-palette {
+   margin-top: 2rem;
+   margin-bottom: 10rem;
+}
+
+.wrapper-palette .container h3 {
+   font-size: 3rem;
+   line-height: 1.2;
+   margin-bottom: 3rem;
+}
+
+.wrapper-palette .container .palette-label {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto;
+   text-align: center;
+   padding: 1rem 3rem;
+}
+
+.color-label {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0.725rem;
+}
+
+.color-1, .color-2, .color-3, .color-4, .color-5, .color-6, .color-7,
+.color-8, .color-9, .color-10, .color-11, .color-12, .color-13, .color-14 {
+   height: 2.5rem;
+   width: 2.5rem;
+   border-radius: 50%;
+   margin-right: 0.525rem;
+}
+
+span {
+   font-family: var(--ff-style-two);
+   font-size: 0.825rem;
+   color: #deeaee;
+   cursor: pointer;
+}
+
+.wrapper-bottom .container .logo img {
+   height: 8rem;
+   width: 8rem;
+   border: 0.325rem solid var(--clr-extra);
+   border-radius: 50%;
+}
+
+.wrapper-bottom {
+   margin-top: 4rem;
+   margin-bottom: 0.25rem;
+   font-family: var(--ff-style-two);
+}
+
+.logo {
+   padding: 4rem auto;
+   margin-bottom: 4rem;
+}
+
+.link {
+   margin: 4rem auto;
+   text-align: center;
+   max-width: 30%;
+}
+
+.link a {
+   text-decoration: none;
+   color: #deeaee;
+   border: 0.125rem solid #f9e674;
+   background-color: var(--clr-extra);
+}
+
+.personal-link {
+   font-family: var(--ff-style-two);
+   font-size: 1.625rem;
+   padding: 0.5rem;
+}
+
+p {
+   font-family: var(--ff-style-one);
+   font-size: 0.825rem;
+}
+p > a {
+   color: #deeaee;
+   text-decoration: none;
+}
