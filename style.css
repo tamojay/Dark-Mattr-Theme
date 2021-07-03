@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-   width: 85%;
+   width: 88%;
    margin: 0 auto;
    padding: 2rem 4rem;
    text-align: center;
@@ -47,7 +47,7 @@ body {
 
 .wrapper-header p {
    font-family: var(--ff-style-one);
-   font-size: 1.525rem;
+   font-size: 1.225rem;
   }
 
 .wrapper-section {
@@ -170,7 +170,7 @@ p > a {
    
    .wrapper-header p {
    font-family: var(--ff-style-one);
-   font-size: 1.125rem;
+   font-size: 0.925rem;
   }
 
    .wrapper-section {
@@ -213,6 +213,11 @@ p > a {
    
    span {
       display: none;
+   }
+   
+   p {
+      font-family: var(--ff-style-one);
+      font-size: 0.625rem;
    }
 
 }
