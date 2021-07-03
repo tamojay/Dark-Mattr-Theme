@@ -45,6 +45,11 @@ body {
    color: var(--clr-accent);
 }
 
+.wrapper-header p {
+   font-family: var(--ff-style-one);
+   font-size: 1.525rem;
+  }
+
 .wrapper-section {
    margin-bottom: 2rem;
 }
@@ -162,6 +167,11 @@ p > a {
       line-height: 1;
       color: var(--clr-accent);
    }
+   
+   .wrapper-header p {
+   font-family: var(--ff-style-one);
+   font-size: 1.125rem;
+  }
 
    .wrapper-section {
       margin-bottom: 1rem; 
