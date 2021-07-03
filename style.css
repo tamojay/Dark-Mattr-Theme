@@ -46,7 +46,7 @@ body {
 }
 
 .wrapper-section {
-   margin-bottom: 3rem;
+   margin-bottom: 2rem;
 }
 
 .wrapper-section .container img {
@@ -57,7 +57,7 @@ body {
 
 .wrapper-palette {
    margin-top: 2rem;
-   margin-bottom: 10rem;
+   margin-bottom: 8rem;
 }
 
 .wrapper-palette .container h3 {
@@ -128,7 +128,7 @@ span {
 
 .personal-link {
    font-family: var(--ff-style-two);
-   font-size: 1.625rem;
+   font-size: 1.225rem;
    padding: 0.5rem;
 }
 
@@ -139,4 +139,70 @@ p {
 p > a {
    color: #deeaee;
    text-decoration: none;
+}
+
+@media only screen and (max-width: 660px) {
+
+   .wrapper-header {
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+   }
+   
+   .container {
+      width: 88%;
+      margin: 0 auto;
+      padding: 2rem 2rem;
+      text-align: center;
+   }
+   
+   .container .title h1 {
+      font-family: var(--ff-style-two);
+      font-size: 2.25rem;
+      font-weight: 500;
+      line-height: 1;
+      color: var(--clr-accent);
+   }
+
+   .wrapper-section {
+      margin-bottom: 1rem; 
+   }
+
+   .wrapper-palette {
+      margin-top: 2rem;
+      margin-bottom: 6rem;
+   }
+   
+   .wrapper-palette .container h3 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+   }
+   
+   .wrapper-palette .container .palette-label {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      text-align: center;
+      padding: 1.25rem;
+   }
+   
+   .color-label {
+      grid-area: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.725rem;
+   }
+   
+   .color-1, .color-2, .color-3, .color-4, .color-5, .color-6, .color-7,
+   .color-8, .color-9, .color-10, .color-11, .color-12, .color-13, .color-14 {
+      height: 1.625rem;
+      width: 1.625rem;
+      border-radius: 50%;
+      margin-right: 0.725rem;
+   }
+   
+   span {
+      display: none;
+   }
+
 }
