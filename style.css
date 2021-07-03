@@ -60,6 +60,30 @@ body {
    box-shadow: 0 0 2rem #1b1a1a;
 }
 
+.wrapper-mid {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+   }
+   
+   .wrapper-mid .mid-logo {
+      height: 35px;
+      width: 35px;
+      width: 100%;
+      padding-bottom: 1.5rem;
+   }
+   
+   .wrapper-mid .mid-title {
+      font-size: 0.625rem;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      font-weight: 400;
+   }
+   
+   .mid-title a {
+      text-decoration: none;
+      color: #e0fdc9;
+   }
+
 .wrapper-palette {
    margin-top: 2rem;
    margin-bottom: 8rem;
@@ -176,7 +200,31 @@ p > a {
    .wrapper-section {
       margin-bottom: 1rem; 
    }
-
+   
+   .wrapper-mid {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+   }
+   
+   .wrapper-mid .mid-logo {
+      height: 35px;
+      width: 35px;
+      width: 100%;
+      padding-bottom: 1.5rem;
+   }
+   
+   .wrapper-mid .mid-title {
+      font-size: 0.625rem;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      font-weight: 400;
+   }
+   
+   .mid-title a {
+      text-decoration: none;
+      color: #e0fdc9;
+   }
+   
    .wrapper-palette {
       margin-top: 2rem;
       margin-bottom: 6rem;
